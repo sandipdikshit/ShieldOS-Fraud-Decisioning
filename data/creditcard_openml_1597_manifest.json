@@ -1,0 +1,19 @@
+{
+  "openml_dataset_id": 1597,
+  "openml_version": 1,
+  "source_url": "https://www.openml.org/data/v1/download/1673544/creditcard.arff",
+  "source_sha256": "fdaf12730dc1fc426f318b71349f24f5c5fd00aa1152940be7e7509ae3d89d2a",
+  "source_rows": 284807,
+  "source_fraud_rows": 492,
+  "source_fraud_prevalence": 0.001727485630620034,
+  "extract_rows": 3000,
+  "extract_fraud_rows": 492,
+  "extract_strategy": "all labelled fraud rows plus a deterministic sample of legitimate rows",
+  "random_state": 42,
+  "derived_columns": [
+    "_source_row_number",
+    "sampling_weight"
+  ],
+  "extract_sha256": "cf7398ad15c1a99e5cb48f3c1affd85def53b128a34ce2ee1af5805904f2ed0f",
+  "metric_policy": "Use sampling_weight for prevalence and volume estimates; treat the extract as a reproducible engineering demonstration, not a benchmark."
+}
