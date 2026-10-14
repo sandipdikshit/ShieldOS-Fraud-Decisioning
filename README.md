@@ -4,6 +4,8 @@ A low-latency, first-principles transaction monitoring pipeline designed to isol
 
 The primary review artifact is the executed notebook: **[ShieldOS Fraud Decisioning Gateway](notebooks/ShieldOS_Fraud_Decisioning_Gateway.ipynb)**.
 
+The asynchronous learning plane is implemented separately in **[Real-Time Fraud Decision Feedback Loop](https://github.com/sandipdikshit/real-time-fraud-data-warehouse)**: immutable decision events, delayed outcomes, point-in-time joins, policy monitoring, drift checks, and champion/challenger promotion controls.
+
 ## What the prototype proves
 
 - A typed transaction contract and replay-safe decision response.
